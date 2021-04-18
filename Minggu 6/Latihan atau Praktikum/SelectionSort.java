@@ -15,8 +15,6 @@ public class SelectionSort {
             // Find the minimum element in unsorted array
             int min_idx = i;
             for (int j = i+1; j < n; j++) {
-                //Banyak Proses Perbandingan :
-//                System.out.println(" A : " + arr[j-1] + " < " + " B : " + arr[j]);
                 if (arr[j] < arr[min_idx]){
                     min_idx = j;
                     // Swap the found minimum element with the first
